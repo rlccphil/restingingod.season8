@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resting in God - Season 8</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --theme-color: #365233;
+            --theme-light: #f4f7f4;
+            --theme-accent: #d4e3d2;
+        }
+        body {
+            background-color: var(--theme-light);
+            color: #2d3748;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .tab-active {
+            background-color: var(--theme-color) !important;
+            color: white !important;
+            border-bottom: 4px solid #b5c9b4;
+        }
+        .content-card {
+            border-top: 5px solid var(--theme-color);
+            transition: all 0.3s ease;
+        }
+        .section-title {
+            color: var(--theme-color);
+            border-bottom: 2px solid var(--theme-accent);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .bullet-point::before {
+            content: "•";
+            color: var(--theme-color);
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        .reflection-box {
+            background-color: white;
+            border: 1px solid var(--theme-accent);
+        }
+        .btn-primary {
+            background-color: var(--theme-color);
+            transition: opacity 0.2s;
+        }
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-8 px-4 md:px-8">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-serif font-bold text-[#365233] mb-2 italic">Resting in God</h1>
+            <p class="text-xl text-gray-600 uppercase tracking-widest font-light">Season 8: Listening and Discernment</p>
+            <div class="h-1 w-24 bg-[#365233] mx-auto mt-4 rounded-full"></div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="flex flex-wrap justify-center gap-2 mb-8" id="tabs">
+            <button onclick="showTab('intro')" id="tab-intro" class="px-5 py-3 rounded-t-lg bg-white text-[#365233] font-semibold shadow-sm hover:bg-gray-50 transition-colors tab-active">
+                Intro
+            </button>
+            <button onclick="showTab('day36')" id="tab-day36" class="px-5 py-3 rounded-t-lg bg-white text-[#365233] font-semibold shadow-sm hover:bg-gray-50 transition-colors">
+                Day 36
+            </button>
+            <button onclick="showTab('day37')" id="tab-day37" class="px-5 py-3 rounded-t-lg bg-white text-[#365233] font-semibold shadow-sm hover:bg-gray-50 transition-colors">
+                Day 37
+            </button>
+            <button onclick="showTab('day38')" id="tab-day38" class="px-5 py-3 rounded-t-lg bg-white text-[#365233] font-semibold shadow-sm hover:bg-gray-50 transition-colors">
+                Day 38
+            </button>
+            <button onclick="showTab('day39')" id="tab-day39" class="px-5 py-3 rounded-t-lg bg-white text-[#365233] font-semibold shadow-sm hover:bg-gray-50 transition-colors">
+                Day 39
+            </button>
+            <button onclick="showTab('day40')" id="tab-day40" class="px-5 py-3 rounded-t-lg bg-white text-[#365233] font-semibold shadow-sm hover:bg-gray-50 transition-colors">
+                Day 40
+            </button>
+        </nav>
+
+        <!-- Content Area -->
+        <div id="content">
+            
+            <!-- Intro Tab -->
+            <div id="intro" class="content-tab">
+                <div class="bg-white rounded-xl shadow-lg p-8 content-card">
+                    <h2 class="text-2xl font-bold mb-6 text-[#365233]">Creating Space to Hear God More Attentively</h2>
+                    <p class="mb-4 text-lg leading-relaxed italic text-gray-700">
+                        "Speak, Lord, for Your servant is listening." — 1 Samuel 3:10
+                    </p>
+                    <p class="mb-6">God often speaks in quiet ways that can easily be missed in the noise and hurry of everyday life. Sabbath creates space to slow down, listen, and become more attentive to His presence and guidance.</p>
+                    
+                    <div class="bg-green-50 p-6 rounded-lg mb-8 border-l-4 border-[#365233]">
+                        <h3 class="font-bold mb-3 text-[#365233]">How to Use These Guidelines</h3>
+                        <p class="mb-4">This season is about cultivating a posture of attentiveness, humility, and openness. As you move through these Sabbath Days:</p>
+                        <ul class="space-y-2 ml-4">
+                            <li class="bullet-point">Quiet distractions</li>
+                            <li class="bullet-point">Listen prayerfully</li>
+                            <li class="bullet-point">Pay attention to your inner life</li>
+                            <li class="bullet-point">Remain open to God's gentle leading</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold text-[#365233] border-b mb-2">BEFORE</h4>
+                            <p class="text-sm">Prepare your heart to listen with openness and humility.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold text-[#365233] border-b mb-2">DURING</h4>
+                            <p class="text-sm">Practice rhythms of silence, attentiveness, reflection, and listening prayer.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-bold text-[#365233] border-b mb-2">AFTER</h4>
+                            <p class="text-sm">Reflect on what you noticed, sensed, or learned during your Sabbath.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 36 -->
+            <div id="day36" class="content-tab hidden">
+                <div class="bg-white rounded-xl shadow-lg p-8 content-card">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="section-title">Before</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Reduce unnecessary stimulation before your Sabbath begins.</li>
+                                <li class="bullet-point">Pray: "Lord, quiet the noise within me."</li>
+                                <li class="bullet-point">Release mental clutter and distractions as best you can.</li>
+                            </ul>
+
+                            <h3 class="section-title">During</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Read Psalm 46 slowly.</li>
+                                <li class="bullet-point">Spend several periods in silence throughout the day.</li>
+                                <li class="bullet-point">Notice mind restlessness without judgment; return to God.</li>
+                                <li class="bullet-point">Sit quietly outdoors or in a peaceful place if possible.</li>
+                            </ul>
+
+                            <h3 class="section-title">After</h3>
+                            <ul class="space-y-3 ml-4">
+                                <li class="bullet-point">Reflect: What kinds of inner noise surfaced today?</li>
+                                <li class="bullet-point">Reflect: What helped me become more attentive?</li>
+                                <li class="bullet-point">Thank God for meeting you in quietness.</li>
+                            </ul>
+                        </div>
+                        <!-- Email Feature -->
+                        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 h-fit">
+                            <h4 class="font-bold text-[#365233] mb-4"><i class="fa-solid fa-pen-fancy mr-2"></i>Record Your Reflections</h4>
+                            <textarea id="ref-36" class="w-full p-3 rounded-md border border-gray-300 mb-4 h-32 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="What inner noise surfaced today?"></textarea>
+                            <input type="email" id="email-36" class="w-full p-3 rounded-md border border-gray-300 mb-4 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="Recipient email address">
+                            <button onclick="sendEmail(36)" class="w-full btn-primary text-white font-bold py-3 rounded-md flex items-center justify-center">
+                                <i class="fa-solid fa-paper-plane mr-2"></i> Email Reflections
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 37 -->
+            <div id="day37" class="content-tab hidden">
+                <div class="bg-white rounded-xl shadow-lg p-8 content-card">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="section-title">Before</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Choose a short Scripture passage ahead of time.</li>
+                                <li class="bullet-point">Pray: "Lord, help me receive Your Word deeply today."</li>
+                                <li class="bullet-point">Approach Scripture slowly rather than analytically.</li>
+                            </ul>
+
+                            <h3 class="section-title">During</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Read John 10:1-15 slowly several times.</li>
+                                <li class="bullet-point">Pay attention to words or phrases that stand out.</li>
+                                <li class="bullet-point">Ask: "What might God be inviting me to notice?"</li>
+                                <li class="bullet-point">Let Scripture move from your mind into your heart.</li>
+                            </ul>
+
+                            <h3 class="section-title">After</h3>
+                            <ul class="space-y-3 ml-4">
+                                <li class="bullet-point">Reflect: What part of the passage stayed with me?</li>
+                                <li class="bullet-point">Reflect: How did Scripture shape my Sabbath today?</li>
+                                <li class="bullet-point">Write down one meaningful insight or prayer.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 h-fit">
+                            <h4 class="font-bold text-[#365233] mb-4"><i class="fa-solid fa-pen-fancy mr-2"></i>Record Your Reflections</h4>
+                            <textarea id="ref-37" class="w-full p-3 rounded-md border border-gray-300 mb-4 h-32 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="What part of John 10 stayed with you?"></textarea>
+                            <input type="email" id="email-37" class="w-full p-3 rounded-md border border-gray-300 mb-4 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="Recipient email address">
+                            <button onclick="sendEmail(37)" class="w-full btn-primary text-white font-bold py-3 rounded-md flex items-center justify-center">
+                                <i class="fa-solid fa-paper-plane mr-2"></i> Email Reflections
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 38 -->
+            <div id="day38" class="content-tab hidden">
+                <div class="bg-white rounded-xl shadow-lg p-8 content-card">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="section-title">Before</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Begin your Sabbath honestly and gently.</li>
+                                <li class="bullet-point">Pray: "Lord, help me notice what is happening within me."</li>
+                                <li class="bullet-point">Release the pressure to feel spiritually "successful."</li>
+                            </ul>
+
+                            <h3 class="section-title">During</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Read Psalm 139:23-24 slowly.</li>
+                                <li class="bullet-point">Pause and ask: "What am I feeling right now?"</li>
+                                <li class="bullet-point">Notice peace, tension, joy, sadness, or resistance.</li>
+                                <li class="bullet-point">Bring your inner experiences honestly before God.</li>
+                            </ul>
+
+                            <h3 class="section-title">After</h3>
+                            <ul class="space-y-3 ml-4">
+                                <li class="bullet-point">Reflect: What emotions or thoughts surfaced today?</li>
+                                <li class="bullet-point">Reflect: What is God inviting me to address?</li>
+                                <li class="bullet-point">Offer your inner life to God with honesty and trust.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 h-fit">
+                            <h4 class="font-bold text-[#365233] mb-4"><i class="fa-solid fa-pen-fancy mr-2"></i>Record Your Reflections</h4>
+                            <textarea id="ref-38" class="w-full p-3 rounded-md border border-gray-300 mb-4 h-32 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="What emotions surfaced today?"></textarea>
+                            <input type="email" id="email-38" class="w-full p-3 rounded-md border border-gray-300 mb-4 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="Recipient email address">
+                            <button onclick="sendEmail(38)" class="w-full btn-primary text-white font-bold py-3 rounded-md flex items-center justify-center">
+                                <i class="fa-solid fa-paper-plane mr-2"></i> Email Reflections
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 39 -->
+            <div id="day39" class="content-tab hidden">
+                <div class="bg-white rounded-xl shadow-lg p-8 content-card">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="section-title">Before</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Bring decisions or uncertainties before God.</li>
+                                <li class="bullet-point">Pray: "Lord, guide me in Your peace and wisdom."</li>
+                                <li class="bullet-point">Release the pressure to force immediate clarity.</li>
+                            </ul>
+
+                            <h3 class="section-title">During</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Read Colossians 3:15 slowly.</li>
+                                <li class="bullet-point">Notice what brings peace, freedom, or clarity.</li>
+                                <li class="bullet-point">Avoid frantic decision-making today.</li>
+                                <li class="bullet-point">Trust that discernment often unfolds gradually.</li>
+                            </ul>
+
+                            <h3 class="section-title">After</h3>
+                            <ul class="space-y-3 ml-4">
+                                <li class="bullet-point">Reflect: What brought peace to my spirit today?</li>
+                                <li class="bullet-point">Reflect: What areas still need patience and prayer?</li>
+                                <li class="bullet-point">Ask God for wisdom and continued guidance.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 h-fit">
+                            <h4 class="font-bold text-[#365233] mb-4"><i class="fa-solid fa-pen-fancy mr-2"></i>Record Your Reflections</h4>
+                            <textarea id="ref-39" class="w-full p-3 rounded-md border border-gray-300 mb-4 h-32 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="What brought peace to your spirit?"></textarea>
+                            <input type="email" id="email-39" class="w-full p-3 rounded-md border border-gray-300 mb-4 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="Recipient email address">
+                            <button onclick="sendEmail(39)" class="w-full btn-primary text-white font-bold py-3 rounded-md flex items-center justify-center">
+                                <i class="fa-solid fa-paper-plane mr-2"></i> Email Reflections
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 40 -->
+            <div id="day40" class="content-tab hidden">
+                <div class="bg-white rounded-xl shadow-lg p-8 content-card">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="section-title">Before</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Begin with openness rather than control.</li>
+                                <li class="bullet-point">Pray: "Lord, make my heart responsive to Your leading."</li>
+                                <li class="bullet-point">Let go of rigid expectations for the day.</li>
+                            </ul>
+
+                            <h3 class="section-title">During</h3>
+                            <ul class="space-y-3 ml-4 mb-8">
+                                <li class="bullet-point">Read Isaiah 30:21 slowly.</li>
+                                <li class="bullet-point">Pay attention to promptings: rest, reconciliation, gratitude...</li>
+                                <li class="bullet-point">Remain open to small invitations from God.</li>
+                                <li class="bullet-point">Walk slowly and attentively through your Sabbath.</li>
+                            </ul>
+
+                            <h3 class="section-title">After</h3>
+                            <ul class="space-y-3 ml-4">
+                                <li class="bullet-point">Reflect: What invitations or impressions did I notice?</li>
+                                <li class="bullet-point">Reflect: How can I remain more attentive next week?</li>
+                                <li class="bullet-point">Close your Sabbath with peaceful surrender.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 h-fit">
+                            <h4 class="font-bold text-[#365233] mb-4"><i class="fa-solid fa-pen-fancy mr-2"></i>Record Your Reflections</h4>
+                            <textarea id="ref-40" class="w-full p-3 rounded-md border border-gray-300 mb-4 h-32 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="What invitations did you notice today?"></textarea>
+                            <input type="email" id="email-40" class="w-full p-3 rounded-md border border-gray-300 mb-4 focus:ring-2 focus:ring-[#365233] outline-none" placeholder="Recipient email address">
+                            <button onclick="sendEmail(40)" class="w-full btn-primary text-white font-bold py-3 rounded-md flex items-center justify-center">
+                                <i class="fa-solid fa-paper-plane mr-2"></i> Email Reflections
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer Notification Area -->
+        <div id="notification" class="fixed bottom-4 right-4 bg-gray-800 text-white px-6 py-3 rounded-lg shadow-2xl transform translate-y-20 transition-transform duration-300 opacity-0">
+            Email prompt opened.
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabId) {
+            // Hide all tabs
+            document.querySelectorAll('.content-tab').forEach(tab => {
+                tab.classList.add('hidden');
+            });
+            // Show selected tab
+            document.getElementById(tabId).classList.remove('hidden');
+
+            // Reset tab styles
+            document.querySelectorAll('#tabs button').forEach(btn => {
+                btn.classList.remove('tab-active');
+            });
+            // Set active tab style
+            document.getElementById('tab-' + tabId).classList.add('tab-active');
+        }
+
+        function sendEmail(day) {
+            const reflection = document.getElementById('ref-' + day).value;
+            const email = document.getElementById('email-' + day).value;
+
+            if (!reflection || !email) {
+                showNotification("Please fill in both the reflection and an email address.");
+                return;
+            }
+
+            const subject = encodeURIComponent(`Resting in God - Season 8 - Day ${day} Reflections`);
+            const body = encodeURIComponent(`Sabbath Reflections for Day ${day}:\n\n${reflection}\n\n- Part of the Resting in God Series (Season 8)`);
+            
+            // Note: Since we are in an iframe/restricted environment, mailto is the safest way to trigger the user's client.
+            window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+            
+            showNotification("Opening your email application...");
+        }
+
+        function showNotification(message) {
+            const note = document.getElementById('notification');
+            note.innerText = message;
+            note.classList.remove('translate-y-20', 'opacity-0');
+            
+            setTimeout(() => {
+                note.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
